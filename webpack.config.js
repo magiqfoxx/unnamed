@@ -9,7 +9,11 @@ module.exports = env => {return {
     library: 'addEmojis',
     libraryTarget: 'umd',
   },
-  mode: env && --env.NODE_ENV || 'development',
+  mode: env && env.production ? 'production' : 'development',
+  optimization: {
+       usedExports: true,
+     },
+  },
   externals: {
          lodash: {
            commonjs: 'lodash',
