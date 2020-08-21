@@ -7,7 +7,7 @@
 		exports["addEmojis"] = factory();
 	else
 		root["addEmojis"] = factory();
-})(window, function() {
+})(global, function() {
 return /******/ (function(modules) { // webpackBootstrap
 /******/ 	// The module cache
 /******/ 	var installedModules = {};

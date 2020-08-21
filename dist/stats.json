@@ -1,0 +1,512 @@
+{
+  "errors": [
+  ],
+  "warnings": [
+  ],
+  "version": "4.44.1",
+  "hash": "27d7d09a862e867d67cd",
+  "time": 163,
+  "builtAt": 1598012401100,
+  "publicPath": "",
+  "outputPath": "/Users/katarzyna/Documents/workspace/unnamed/dist",
+  "assetsByChunkName": {
+    "main": "lib.node.js"
+  },
+  "assets": [
+    {
+      "name": "lib.node.js",
+      "size": 6621,
+      "chunks": [
+        "main"
+      ],
+      "chunkNames": [
+        "main"
+      ],
+      "info": {
+      },
+      "emitted": true
+    }
+  ],
+  "filteredAssets": 0,
+  "entrypoints": {
+    "main": {
+      "chunks": [
+        "main"
+      ],
+      "assets": [
+        "lib.node.js"
+      ],
+      "children": {
+      },
+      "childAssets": {
+      }
+    }
+  },
+  "namedChunkGroups": {
+    "main": {
+      "chunks": [
+        "main"
+      ],
+      "assets": [
+        "lib.node.js"
+      ],
+      "children": {
+      },
+      "childAssets": {
+      }
+    }
+  },
+  "chunks": [
+    {
+      "id": "main",
+      "rendered": true,
+      "initial": true,
+      "entry": true,
+      "size": 623,
+      "names": [
+        "main"
+      ],
+      "files": [
+        "lib.node.js"
+      ],
+      "hash": "e34565a6830d659e2a8f",
+      "siblings": [
+      ],
+      "parents": [
+      ],
+      "children": [
+      ],
+      "childrenByOrder": {
+      },
+      "modules": [
+        {
+          "id": "./src/addEmoji.js",
+          "identifier": "/Users/katarzyna/Documents/workspace/unnamed/src/addEmoji.js",
+          "name": "./src/addEmoji.js",
+          "index": 1,
+          "index2": 0,
+          "size": 269,
+          "cacheable": true,
+          "built": true,
+          "optional": false,
+          "prefetched": false,
+          "chunks": [
+            "main"
+          ],
+          "issuer": "/Users/katarzyna/Documents/workspace/unnamed/src/index.js",
+          "issuerId": "./src/index.js",
+          "issuerName": "./src/index.js",
+          "issuerPath": [
+            {
+              "id": "./src/index.js",
+              "identifier": "/Users/katarzyna/Documents/workspace/unnamed/src/index.js",
+              "name": "./src/index.js"
+            }
+          ],
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "assets": [
+          ],
+          "reasons": [
+            {
+              "moduleId": "./src/index.js",
+              "moduleIdentifier": "/Users/katarzyna/Documents/workspace/unnamed/src/index.js",
+              "module": "./src/index.js",
+              "moduleName": "./src/index.js",
+              "type": "harmony side effect evaluation",
+              "userRequest": "./addEmoji",
+              "loc": "1:0-36"
+            },
+            {
+              "moduleId": "./src/index.js",
+              "moduleIdentifier": "/Users/katarzyna/Documents/workspace/unnamed/src/index.js",
+              "module": "./src/index.js",
+              "moduleName": "./src/index.js",
+              "type": "harmony import specifier",
+              "userRequest": "./addEmoji",
+              "loc": "5:12-20"
+            }
+          ],
+          "usedExports": [
+            "addEmoji"
+          ],
+          "providedExports": [
+            "addEmoji",
+            "addBug"
+          ],
+          "optimizationBailout": [
+          ],
+          "depth": 1,
+          "source": "const emojis = [\"😺\",\"😸\",\"😹\",\"😻\",\"😼\",\"😽\",\"🙀\",\"😿\",\"😾\"];\n\nexport const addEmoji = (string) =>{\n    return string + emojis[Math.floor(Math.random(0) * Math.floor(emojis.length))];\n}\nexport const addBug = (string) =>{\n    return '🐛' + string;\n}"
+        },
+        {
+          "id": "./src/addExclamationSign.js",
+          "identifier": "/Users/katarzyna/Documents/workspace/unnamed/src/addExclamationSign.js",
+          "name": "./src/addExclamationSign.js",
+          "index": 3,
+          "index2": 2,
+          "size": 74,
+          "cacheable": true,
+          "built": true,
+          "optional": false,
+          "prefetched": false,
+          "chunks": [
+            "main"
+          ],
+          "issuer": "/Users/katarzyna/Documents/workspace/unnamed/src/index.js",
+          "issuerId": "./src/index.js",
+          "issuerName": "./src/index.js",
+          "issuerPath": [
+            {
+              "id": "./src/index.js",
+              "identifier": "/Users/katarzyna/Documents/workspace/unnamed/src/index.js",
+              "name": "./src/index.js"
+            }
+          ],
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "assets": [
+          ],
+          "reasons": [
+            {
+              "moduleId": "./src/index.js",
+              "moduleIdentifier": "/Users/katarzyna/Documents/workspace/unnamed/src/index.js",
+              "module": "./src/index.js",
+              "moduleName": "./src/index.js",
+              "type": "harmony side effect evaluation",
+              "userRequest": "./addExclamationSign",
+              "loc": "3:0-56"
+            }
+          ],
+          "usedExports": false,
+          "providedExports": [
+            "addExclamationSign"
+          ],
+          "optimizationBailout": [
+          ],
+          "depth": 1,
+          "source": "export const addExclamationSign = (string) => {\n    return string + \"!\";\n}"
+        },
+        {
+          "id": "./src/addHearts.js",
+          "identifier": "/Users/katarzyna/Documents/workspace/unnamed/src/addHearts.js",
+          "name": "./src/addHearts.js",
+          "index": 2,
+          "index2": 1,
+          "size": 87,
+          "cacheable": true,
+          "built": true,
+          "optional": false,
+          "prefetched": false,
+          "chunks": [
+            "main"
+          ],
+          "issuer": "/Users/katarzyna/Documents/workspace/unnamed/src/index.js",
+          "issuerId": "./src/index.js",
+          "issuerName": "./src/index.js",
+          "issuerPath": [
+            {
+              "id": "./src/index.js",
+              "identifier": "/Users/katarzyna/Documents/workspace/unnamed/src/index.js",
+              "name": "./src/index.js"
+            }
+          ],
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "assets": [
+          ],
+          "reasons": [
+            {
+              "moduleId": "./src/index.js",
+              "moduleIdentifier": "/Users/katarzyna/Documents/workspace/unnamed/src/index.js",
+              "module": "./src/index.js",
+              "moduleName": "./src/index.js",
+              "type": "harmony side effect evaluation",
+              "userRequest": "./addHearts",
+              "loc": "2:0-38"
+            }
+          ],
+          "usedExports": false,
+          "providedExports": [
+            "addHearts"
+          ],
+          "optimizationBailout": [
+          ],
+          "depth": 1,
+          "source": "export const addHearts = (string, amount)=>{\n    return string + '❤️'*amount;\n    }"
+        },
+        {
+          "id": "./src/index.js",
+          "identifier": "/Users/katarzyna/Documents/workspace/unnamed/src/index.js",
+          "name": "./src/index.js",
+          "index": 0,
+          "index2": 3,
+          "size": 193,
+          "cacheable": true,
+          "built": true,
+          "optional": false,
+          "prefetched": false,
+          "chunks": [
+            "main"
+          ],
+          "issuer": null,
+          "issuerId": null,
+          "issuerName": null,
+          "issuerPath": null,
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "assets": [
+          ],
+          "reasons": [
+            {
+              "moduleId": null,
+              "moduleIdentifier": null,
+              "module": null,
+              "moduleName": null,
+              "type": "single entry",
+              "userRequest": "./src/index.js",
+              "loc": "main"
+            }
+          ],
+          "usedExports": true,
+          "providedExports": [
+          ],
+          "optimizationBailout": [
+          ],
+          "depth": 0,
+          "source": "import {addEmoji} from \"./addEmoji\";\nimport {addHearts} from \"./addHearts\";\nimport {addExclamationSign} from \"./addExclamationSign\";\n\nconsole.log(addEmoji(\"HelloWorld!\"+process.env.NODE_ENV));\n"
+        }
+      ],
+      "filteredModules": 0,
+      "origins": [
+        {
+          "module": "",
+          "moduleIdentifier": "",
+          "moduleName": "",
+          "loc": "main",
+          "request": "./src/index.js",
+          "reasons": [
+          ]
+        }
+      ]
+    }
+  ],
+  "modules": [
+    {
+      "id": "./src/addEmoji.js",
+      "identifier": "/Users/katarzyna/Documents/workspace/unnamed/src/addEmoji.js",
+      "name": "./src/addEmoji.js",
+      "index": 1,
+      "index2": 0,
+      "size": 269,
+      "cacheable": true,
+      "built": true,
+      "optional": false,
+      "prefetched": false,
+      "chunks": [
+        "main"
+      ],
+      "issuer": "/Users/katarzyna/Documents/workspace/unnamed/src/index.js",
+      "issuerId": "./src/index.js",
+      "issuerName": "./src/index.js",
+      "issuerPath": [
+        {
+          "id": "./src/index.js",
+          "identifier": "/Users/katarzyna/Documents/workspace/unnamed/src/index.js",
+          "name": "./src/index.js"
+        }
+      ],
+      "failed": false,
+      "errors": 0,
+      "warnings": 0,
+      "assets": [
+      ],
+      "reasons": [
+        {
+          "moduleId": "./src/index.js",
+          "moduleIdentifier": "/Users/katarzyna/Documents/workspace/unnamed/src/index.js",
+          "module": "./src/index.js",
+          "moduleName": "./src/index.js",
+          "type": "harmony side effect evaluation",
+          "userRequest": "./addEmoji",
+          "loc": "1:0-36"
+        },
+        {
+          "moduleId": "./src/index.js",
+          "moduleIdentifier": "/Users/katarzyna/Documents/workspace/unnamed/src/index.js",
+          "module": "./src/index.js",
+          "moduleName": "./src/index.js",
+          "type": "harmony import specifier",
+          "userRequest": "./addEmoji",
+          "loc": "5:12-20"
+        }
+      ],
+      "usedExports": [
+        "addEmoji"
+      ],
+      "providedExports": [
+        "addEmoji",
+        "addBug"
+      ],
+      "optimizationBailout": [
+      ],
+      "depth": 1,
+      "source": "const emojis = [\"😺\",\"😸\",\"😹\",\"😻\",\"😼\",\"😽\",\"🙀\",\"😿\",\"😾\"];\n\nexport const addEmoji = (string) =>{\n    return string + emojis[Math.floor(Math.random(0) * Math.floor(emojis.length))];\n}\nexport const addBug = (string) =>{\n    return '🐛' + string;\n}"
+    },
+    {
+      "id": "./src/addExclamationSign.js",
+      "identifier": "/Users/katarzyna/Documents/workspace/unnamed/src/addExclamationSign.js",
+      "name": "./src/addExclamationSign.js",
+      "index": 3,
+      "index2": 2,
+      "size": 74,
+      "cacheable": true,
+      "built": true,
+      "optional": false,
+      "prefetched": false,
+      "chunks": [
+        "main"
+      ],
+      "issuer": "/Users/katarzyna/Documents/workspace/unnamed/src/index.js",
+      "issuerId": "./src/index.js",
+      "issuerName": "./src/index.js",
+      "issuerPath": [
+        {
+          "id": "./src/index.js",
+          "identifier": "/Users/katarzyna/Documents/workspace/unnamed/src/index.js",
+          "name": "./src/index.js"
+        }
+      ],
+      "failed": false,
+      "errors": 0,
+      "warnings": 0,
+      "assets": [
+      ],
+      "reasons": [
+        {
+          "moduleId": "./src/index.js",
+          "moduleIdentifier": "/Users/katarzyna/Documents/workspace/unnamed/src/index.js",
+          "module": "./src/index.js",
+          "moduleName": "./src/index.js",
+          "type": "harmony side effect evaluation",
+          "userRequest": "./addExclamationSign",
+          "loc": "3:0-56"
+        }
+      ],
+      "usedExports": false,
+      "providedExports": [
+        "addExclamationSign"
+      ],
+      "optimizationBailout": [
+      ],
+      "depth": 1,
+      "source": "export const addExclamationSign = (string) => {\n    return string + \"!\";\n}"
+    },
+    {
+      "id": "./src/addHearts.js",
+      "identifier": "/Users/katarzyna/Documents/workspace/unnamed/src/addHearts.js",
+      "name": "./src/addHearts.js",
+      "index": 2,
+      "index2": 1,
+      "size": 87,
+      "cacheable": true,
+      "built": true,
+      "optional": false,
+      "prefetched": false,
+      "chunks": [
+        "main"
+      ],
+      "issuer": "/Users/katarzyna/Documents/workspace/unnamed/src/index.js",
+      "issuerId": "./src/index.js",
+      "issuerName": "./src/index.js",
+      "issuerPath": [
+        {
+          "id": "./src/index.js",
+          "identifier": "/Users/katarzyna/Documents/workspace/unnamed/src/index.js",
+          "name": "./src/index.js"
+        }
+      ],
+      "failed": false,
+      "errors": 0,
+      "warnings": 0,
+      "assets": [
+      ],
+      "reasons": [
+        {
+          "moduleId": "./src/index.js",
+          "moduleIdentifier": "/Users/katarzyna/Documents/workspace/unnamed/src/index.js",
+          "module": "./src/index.js",
+          "moduleName": "./src/index.js",
+          "type": "harmony side effect evaluation",
+          "userRequest": "./addHearts",
+          "loc": "2:0-38"
+        }
+      ],
+      "usedExports": false,
+      "providedExports": [
+        "addHearts"
+      ],
+      "optimizationBailout": [
+      ],
+      "depth": 1,
+      "source": "export const addHearts = (string, amount)=>{\n    return string + '❤️'*amount;\n    }"
+    },
+    {
+      "id": "./src/index.js",
+      "identifier": "/Users/katarzyna/Documents/workspace/unnamed/src/index.js",
+      "name": "./src/index.js",
+      "index": 0,
+      "index2": 3,
+      "size": 193,
+      "cacheable": true,
+      "built": true,
+      "optional": false,
+      "prefetched": false,
+      "chunks": [
+        "main"
+      ],
+      "issuer": null,
+      "issuerId": null,
+      "issuerName": null,
+      "issuerPath": null,
+      "failed": false,
+      "errors": 0,
+      "warnings": 0,
+      "assets": [
+      ],
+      "reasons": [
+        {
+          "moduleId": null,
+          "moduleIdentifier": null,
+          "module": null,
+          "moduleName": null,
+          "type": "single entry",
+          "userRequest": "./src/index.js",
+          "loc": "main"
+        }
+      ],
+      "usedExports": true,
+      "providedExports": [
+      ],
+      "optimizationBailout": [
+      ],
+      "depth": 0,
+      "source": "import {addEmoji} from \"./addEmoji\";\nimport {addHearts} from \"./addHearts\";\nimport {addExclamationSign} from \"./addExclamationSign\";\n\nconsole.log(addEmoji(\"HelloWorld!\"+process.env.NODE_ENV));\n"
+    }
+  ],
+  "filteredModules": 0,
+  "logging": {
+    "webpack.buildChunkGraph.visitModules": {
+      "entries": [
+      ],
+      "filteredEntries": 2,
+      "debug": false
+    }
+  },
+  "children": [
+  ]
+}

@@ -7,7 +7,8 @@
   "scripts": {
     "start": "webpack",
     "build": "webpack --config webpack.config.js --env.production ",
-    "build-dev": "webpack --config webpack.config.js"
+    "build-dev": "webpack --config webpack.config.js",
+    "bundle-show-report": "webpack-bundle-analyzer --port 4200 dist/lib.js -m server"
   },
   "author": "",
   "license": "ISC",
